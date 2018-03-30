@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -74,6 +78,102 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finish_summarise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gonna_do_example.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_count_things.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hi_another_video.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hope_found_useful.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagine_we_had.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in_this_vid_talking_about.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\look_see_how_much_got.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_to_9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35_add_27.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_count_combine.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\and_what_it_means.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_things.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brains_super_good.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\count_1_from_8_get_9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\example_one.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stutter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thats_good.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three_two_five.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\what_is.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mr_hegarty_here.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number_line.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\okay.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\our_brain_isnt_good.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question_straighforward.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\really_quickly.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simple_addition.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smack_lips.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\so_this_means.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_ask_question.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
